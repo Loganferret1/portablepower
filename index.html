@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portable Power Solutions - r/PortablePower101</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e6f4ff 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .header h1 {
+            color: #1a365d;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .header p {
+            color: #4a5568;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .affiliate-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            color: #2d3748;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            color: #718096;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .usa-button {
+            background: #2563eb;
+            color: white;
+        }
+
+        .usa-button:hover {
+            background: #1d4ed8;
+            box-shadow: 0 4px 6px -1px rgba(29, 78, 216, 0.2);
+        }
+
+        .uk-button {
+            background: #10b981;
+            color: white;
+        }
+
+        .uk-button:hover {
+            background: #059669;
+            box-shadow: 0 4px 6px -1px rgba(5, 150, 105, 0.2);
+        }
+
+        .disclaimer {
+            text-align: center;
+            margin-top: 3rem;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .card {
+                margin: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Portable Power Solutions</h1>
+            <p>Your trusted resource for portable energy solutions from r/PortablePower101. Choose your region below to explore recommended products.</p>
+        </div>
+
+        <div class="affiliate-cards">
+            <!-- USA Affiliate Card -->
+            <div class="card">
+                <h2>United States</h2>
+                <p>Explore portable power stations and solar generators available for US customers. Fast shipping and local support.</p>
+                <a href="#USA-AFFILIATE-LINK" class="cta-button usa-button">Shop US Products →</a>
+            </div>
+
+            <!-- UK Affiliate Card -->
+            <div class="card">
+                <h2>United Kingdom</h2>
+                <p>Discover portable energy solutions for UK customers. Competitive pricing and EU-certified products.</p>
+                <a href="#UK-AFFILIATE-LINK" class="cta-button uk-button">Shop UK Products →</a>
+            </div>
+        </div>
+
+        <p class="disclaimer">
+            *Note: This page contains affiliate links. As a community moderator, I may earn from qualifying purchases.
+        </p>
+    </div>
+</body>
+</html>
